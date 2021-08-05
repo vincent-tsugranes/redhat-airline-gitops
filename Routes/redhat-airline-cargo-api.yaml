@@ -1,0 +1,9 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: redhat-airline-cargo-api
+spec:
+  path: "/"
+  to:
+    kind: Service
+    name: redhat-airline-cargo-api

@@ -1,0 +1,8 @@
+commonLabels:
+  app: redhat-airline
+resources:
+- namespace.yaml
+- BuildConfigs/*.yaml
+- Deployments/*.yaml
+- Services/*.yaml
+- Routes/*.yaml
